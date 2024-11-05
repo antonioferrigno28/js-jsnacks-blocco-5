@@ -10,6 +10,6 @@ const names = ["Edoardo", "Simone", "Francesco"];
 // }
 
 //ELABORAZIONE FOREACH
-names.forEach((personName) => {
-  console.log(personName);
+names.forEach((currentPerson) => {
+  console.log(currentPerson);
 });
