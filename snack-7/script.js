@@ -23,7 +23,14 @@ const students = [
 // Risultato: { id: 2, name: 'Mario Banfi', age: 34, class: '4A' }
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//ELABORAZIONE CICLO FOR
+// for (let i = 0; i < students.length; i++) {
+//   if (students[i].id === 2) {
+//     console.log(students[i]);
+//   }
+// }
 
+//ELABORAZIONE FOREACH
 students.forEach((student) => {
   if (student.id === 2) {
     console.log(student);

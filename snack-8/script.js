@@ -21,7 +21,15 @@ const students = [
 
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//ELABORAZIONE CICLO FOR
+// for (let i = 0; i < students.length; i++) {
+//   if (students[i].class === "3C") {
+//     console.log(students[i].class);
+//   }
+// }
 
+//ELABORAZIONE FOREACH
 students.forEach((student) => {
   if (student.class === "3C") {
     console.log(student.class);

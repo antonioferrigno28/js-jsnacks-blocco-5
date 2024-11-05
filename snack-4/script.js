@@ -9,6 +9,14 @@ const posts = [
 // Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico']
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//ELABORAZIONE CICLO FOR
+// const newPostsArray = [];
+
+// for (let i = 0; i < posts.length; i++) {
+//   newPostsArray.push(posts[i].author);
+// }
+// console.log(newPostsArray);
+
 //ELABORAZIONE FOREACH
 const newPostsArray = [];
 posts.forEach((person) => {

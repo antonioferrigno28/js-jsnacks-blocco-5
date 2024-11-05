@@ -7,6 +7,11 @@ const people = [
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
+//ELABORAZIONE CICLO FOR
+
+// for (let i = 0; i < people.length; i++) {
+//   console.log(people[i].name);
+// }
 
 //ELABORAZIONE FOREACH
 
